@@ -1,6 +1,8 @@
 /***************S A F E  S P A C E ***********************
 by Dana Capistrano
 
+SafeSpace explores concepts of privacy and private/ public properties. 
+
 *******************************************************/
 
 // Array of images
@@ -211,17 +213,17 @@ drawSplash = function() {
     image(images[0], 0, 0);
     continueButton.draw();
     //title
-    fill ('#D4E400');
-    textSize (150);
-    textFont (headlineFont);
-    text ('SafeSpace', 280,height/2 +50);
+    fill('#D4E400');
+    textSize(150);
+    textFont(headlineFont);
+    text('SafeSpace', 280, height / 2 + 50);
     //description
-    fill (255);
-    textSize (20);
-    textFont (bodyFont);
-    text ('Safe Space is the latest technology in Rest and Relaxation. With Safe Space, you can rest and get away from the hectic world anywhere. In your stress-inducing household, your fast-paced work environment, the overly crowded cafe, and more.' ,22,30,620, 260);
-    text ('Safe Space is easy to use and affordable. You will be placed in a safe capsule where you can meditate, breathe, nap, and more. The world is your oyster!', 820, 570, 423, 205);
-    fill (214,208,238,0);
+    fill(255);
+    textSize(20);
+    textFont(bodyFont);
+    text('Safe Space is the latest technology in Rest and Relaxation. With Safe Space, you can rest and get away from the hectic world anywhere. In your stress-inducing household, your fast-paced work environment, the overly crowded cafe, and more.', 22, 30, 620, 260);
+    text('Safe Space is easy to use and affordable. You will be placed in a safe capsule where you can meditate, breathe, nap, and more. The world is your oyster!', 820, 570, 423, 205);
+    fill(214, 208, 238, 0);
 }
 
 //Instruction Page
