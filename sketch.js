@@ -1,7 +1,7 @@
 /***************S A F E  S P A C E ***********************
 by Dana Capistrano
 
-SafeSpace explores concepts of privacy and private/ public properties. 
+SafeSpace is speculative technology that provides a portable space for people to relax and get away from the world's hardships. Inspired by the concept of creating a safe space for people to share and be their authentic selves, SafeSpace aims to create a tangible product that provides the same luxuries. 
 
 *******************************************************/
 

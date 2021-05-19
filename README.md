@@ -1,31 +1,19 @@
-## Simple State Machine
-#### by Scott Kildall
+## Safe Space
+#### by Dana Capistrano
 
 
 ### Overview
 This is a template for a simple state machine that goes between five states and starts with a splash screen
 
 
-### Modifying the Template
+### Technical Details
+**Assets** - Folder with the backgrounds states and button images
 
-(1) Add your own PNG files in the assets folder. Make sure they match the names ***exactly*** of the existing PNGs.
+**Fonts** - Folder with font files used in project
 
-(2) Add custom drawing code to drawSplash(), drawOne(), drawTwo(), drawThree(), drawFour(), drawFive()
+**Index** - HTML file
 
-(3) You can add your own interfaces - keys, mouse events, etc in the Interfaces section
+**Libraries** - This project uses p5.Clickable (forked and edited by Scott Kildall)and p5.js founded by Lauren McCarthy
 
-(4) You can add new states with their own drawing functions.
+**Sketch** - p5.js sketch with the main project code
 
-Don't change anything else! 
-
-
-### How it works
-array of images gets loaded at startup
-
-drawFunction is a VARIABLE that points to a function varible name
-
-drawOne(), drawTwo(), etc. are set to be functions.
-
-the the keys 1-5 and 's' key will change the drawFunction variable
-
-starts with drawSplash and waits for a mousePressed event
